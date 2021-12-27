@@ -69,14 +69,19 @@ class DevCommands(commands.Cog, name="Developer"):
         "dev","owner","Team Owners","Head Team Member"
     )
     async def lockdown(self,inter):
-        safe_roles = []
+        btns = AcionRow(
+            Button(
+                style=ButtonStyle.green,
+                label="Yes",
+                custom_id="green"
+            ),
+            Button(
+                style=ButtonStyle.red,
+                label="No",
+                custom_id="red"
+            )
+        )
         
-        for guild in self.bot.guilds:
-            for role in guild.roles:
-                if role.permissions(manage_channels=True):
-                    safe_roles.append(role.id)
-                
-            for channel in guild.text_channels:
-                for member in guild.members:
-                    if not member.bot:
-                        await channel.
+        await iter.reply(
+            "This Command Will Shut Down All Servers Gother Belongs To! Are You Sure?"
+        )
