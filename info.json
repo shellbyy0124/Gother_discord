@@ -1,0 +1,26 @@
+{
+    "version" : {
+        "past" : "0.0.0",
+        "current" : "0.0.1",
+        "future" : "0.0.2"
+    },
+    "devs" : {
+        "mekasu" : {
+            "discTag" : "Shellbyy#8025",
+            "currentServers" : {
+                "LearningTogether" : "https://discord.gg/QyMuAaD9gs",
+                "GotherSupport" : "https://discord.gg/weREZMjr3s",
+                "Shuffles" : "https://discord.gg/C2B3aCkZbt"
+            }
+        }
+    },
+    "changeLog" : {
+        "previous" : "Just Started 12/26/2021",
+        "current" : "-added on message listeners\n-added ping command\n-added info.json",
+        "future" : "-add more general commands\n-add more dev functions to update files"
+    },
+    "history" : {
+        "Gother" : "Gother has been designed for a use of all uses. Gother was created from hanging out with a near and dear friend of mine. I was wanting to really get into programming and wasn't sure of where I wanted to start, or what I wanted to do. I knew one thing was that I utilized discord a lot, so I thought I would make a discord bot. My buddy suggested that I chose a langauge and started with the basics. To that I chose Python, and thus started my adventure. After a day, or two, of messing around with the basics, I thought, 'How hard could this be?' and started trying to build a discord bot. After many attempts and fails, I finally convinced my buddy to help me learn how to do this. We spent hours learning the documentation together, asking in other disord chats, getting mad at each other over code not working lol the list is endless. To this day, I am now quite versed in the discord.py library, and have thus respun ButtlerBot into Gother. Welcome to the Ted Talk of how Gother was created.",
+        "Shuffles" : "Another dear friend of mine that was my co-worker at Waffle House saw me programming one day. I started showing him what I was working on to which peaked his interest and figured I had been doing Python and PySide long enough to know that I had a grasp on creating some very basic software. I talked with him about building this software for him which I have been working on for about 3 months now. I have gone from using Python and PySide to now I am learning JavaScript, HTML, and CSS as his software is a web-based application. In future time, the website will contain links to various spotify radio rooms, different aritsts catalogs that are accessible from their click-able icon photos on the home page > catalogs, and much more. This adventure will also allow me the advantage of not only participating in Udemy (or Udemey, unsure lol) in taking courses they have available in Python, HTML, JavaScript, and CSS for various certifications to allow me to even further expand my knowledge and resource pool."
+    }
+}

@@ -1,7 +1,7 @@
 import sqlite3
 
 def create_db():
-    with sqlite3.connect('./discord_extension/main.db') as main_db:
+    with sqlite3.connect('./main.db') as main_db:
         cur = main_db.cursor()
 
         cur.execute('''CREATE TABLE IF NOT EXISTS botInfo(

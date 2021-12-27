@@ -1,9 +1,7 @@
-import datetime
 import sqlite3 as sql
-import nextcord
-import json
+import disnake
 
-from nextcord.ext import commands
+from disnake.ext import commands
 
 class OnJoinFunctions(commands.Cog):
     def __init__(self,bot):
@@ -118,10 +116,10 @@ class OnJoinFunctions(commands.Cog):
     async def check_channel(self,guild):
         reason = "Needed For Logs -Mekasu"
         
-        cat_check = nextcord.utils.get(guild.categories,name="Logs")
-        chan1 = nextcord.utils.get(guild.text_channels, name='nickname_logs')
-        chan2 = nextcord.utils.get(guild.text_channels, name='warning_logs')
-        chan3 = nextcord.utils.get(guild.text_channels, name='mute_logs')
+        cat_check = disnake.utils.get(guild.categories,name="Logs")
+        chan1 = disnake.utils.get(guild.text_channels, name='nickname_logs')
+        chan2 = disnake.utils.get(guild.text_channels, name='warning_logs')
+        chan3 = disnake.utils.get(guild.text_channels, name='mute_logs')
                 
         if cat_check is None:
             cat = await guild.create_category(name="Logs",reason=reason)
